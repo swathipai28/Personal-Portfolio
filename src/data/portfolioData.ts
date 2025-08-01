@@ -209,7 +209,7 @@ export const projectsData: Project[] = [
       "The site's modular and component-based architecture allows for easy updates and scalability, reflecting best practices in frontend development.",
       "It leverages data from structured TypeScript files, making content management straightforward and efficient."
     ],
-    githubUrl: 'https://github.com/swathipai28/NeighBridge', 
+    githubUrl: 'https://github.com/swathipai28/Personal-Portfolio.git', 
   },
 ];
 

@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    // ... other options
+    "jsx": "react-jsx", // This is crucial for react/jsx-runtime
+    "moduleResolution": "node", // Generally recommended for Node.js environments
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext", // Or "commonjs" depending on your preference, but esnext is common with react-jsx
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "include": [
+    "src" // Ensure your source files are included
+  ]
+}

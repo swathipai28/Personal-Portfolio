@@ -1,0 +1,25 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-deep-blue text-gray-text font-sans;
+  scroll-behavior: smooth; /* For smooth scrolling */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold text-white;
+}
+
+/* Basic Link Styles */
+a {
+  @apply text-light-blue-accent hover:underline;
+}
+
+/* Selection styles */
+::selection {
+  background-color: #00ADB5; /* light-blue-accent */
+  color: #0A1128; /* dark-blue */
+}
